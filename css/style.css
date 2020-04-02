@@ -1,0 +1,255 @@
+body{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    background-color: #303030;
+}
+.blue-color{
+    color: #27a6e8;
+}
+.f-weight500{
+    font-weight: 500;
+    margin-left: 20px;
+}
+.heading{
+    text-transform: uppercase;
+}
+#contactInfo{
+    padding-top: 20px;
+    background-color: #303030;
+    color: #fff;
+    font-size: 14px;
+}
+.meetsUs .micons{
+    padding: 3px 7px;
+    margin: 0px 5px;
+    border-radius: 2px;
+}
+.meetsUs .micons:hover{
+    background-color: #27a6e8;
+}
+.email{
+    color: #8d8c8c;
+}
+.email:hover{
+    color: aquamarine;
+    border-bottom: 1px solid aquamarine;
+}
+.navbar-brand{
+    font-size: 1.8em;
+    font-weight: 500;
+}
+.nav-item{
+    padding-left: 13px;
+    text-transform: uppercase;
+    font-weight: 550;
+    font-size: 13px !important;
+}
+.nav-link:hover{
+    color: #27a6e8 !important;
+}
+#home{
+    background: url('/images/home-bg.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.homeContent{
+    width: 800px;
+    padding: 170px 20px;
+}
+#home .homeContent h1{
+    font-size: 4.3em;
+    font-weight: 350;
+    margin-bottom: 20px;
+}
+#home .homeContent .btn{
+    margin-top: 20px;
+    padding: 16px 39px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #fff;
+}
+#home .homeContent .btn:hover{
+    color: #fff;
+    border-color: #27a6e8;
+    background-color: #27a6e8;
+}
+
+#about{
+    padding-top: 75px;
+}
+#about .col-9 h1{
+    padding-top: 18px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#about .col-9 p{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.aboutIcons{
+    padding: 18px 10px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    text-align: center;
+}
+
+/* team section */
+#team{
+    padding: 75px;
+}
+#team .card{
+    margin-top: 35px;
+    background-color: #3f3f3f;
+    padding-bottom: 20px;
+}
+#team .card .card-title{
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+#team .card span{
+    font-weight: 600;
+    font-size: 15px;
+}
+#team .card p{
+    margin-top: 9px;
+    font-size: 13px;
+}
+
+/* our awesome thing */
+#service{
+    padding: 55px;
+}
+.serviceCard{
+    margin-top: 40px;
+    padding: 50px 30px;
+}
+#service .serviceIcon{
+    border: 1px solid #fff;
+    width: 100px;
+    padding: 20px 0px;
+    font-size: 2.4em;
+    text-align: center;
+}
+.serviceCard h1{
+    margin: 20px 0px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.serviceCard p{
+    font-size: 14px;
+    font-weight: 300;
+}
+.active,
+.serviceCard:hover{
+    background-color: #4f4f4f;
+}
+
+/* Awesome portfolio */
+#portfolio{
+    padding: 70px;
+}
+#portfolio h1{
+    margin-bottom: 40px;
+}
+#portfolio .col-lg-3{
+    padding: 0px;
+}
+
+#contact{
+    padding: 70px 0px 30px 0px;
+    background-color: #202020;
+}
+#contact .btn{
+    width: 100%;
+    padding: 12px 0px;
+    color: #fff;
+    background-color: #27a6e8;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 15px;
+}
+#contact .btn:hover{
+    background-color: transparent;
+    border-color: #27a6e8;
+}
+#contact h1{
+    margin-bottom: 40px;
+}
+.form-group label{
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.form-group .textInput{
+    padding: 25px 10px;
+}
+
+.form-control:focus,
+.form-control{
+    background-color: #202020;
+    color: #fff;
+    border-color: #27a6e8;
+    font-size: 14px;
+}
+#contact .col-lg-6{
+    padding: 0px 14px;
+}
+.info h5{
+    margin-top: 30px;
+}
+.info p{
+    margin: 20px 0px;
+    font-size: 14px;
+}
+.info .contactIcon{
+    text-align: center;
+    font-size: 11px;
+    padding: 12px 0px;
+}
+.address{
+    padding: 11px;
+    font-size: 14px;
+}
+.address .col-lg-1{
+    padding: 0px;
+    border: 1px solid #fff;
+}
+.address .col-lg-11{
+    padding: 10px 13px;
+    /* border: 1px solid #fff; */
+}
+.address span{
+    text-align: left;
+}
+.social{
+    margin-top: 10px;
+    border-top: 1px solid #4f4f4f;
+}
+.social .col-lg-8{
+    padding-top: 35px;
+}
+.social .col-lg-8 span{
+    font-size: 14px;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    margin: 0px 5px;
+}
+.social .col-lg-8 span:hover{
+    background-color: #27a6e8;
+}
+.img-fluid{
+    padding: 0;
+}
+footer{
+    background-color: #303030;
+    height: 70px;
+    font-size: 14px;
+    padding: 22px 0px;
+}
