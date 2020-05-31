@@ -43,25 +43,6 @@ input:focus {
 .nav-colored .nav-item .nav-link {
    color: #575757 !important;
 }
-
-/* nav .navbar-brand {
-   letter-spacing: 3px;
-   font-weight: 500;
-   color: #d8d8d8 !important;
-}
-nav .nav-item {
-   margin: 0 20px;
-}
-nav .nav-item .nav-link {
-   font-weight: 500;
-   letter-spacing: 1px;
-   color: #d8d8d8 !important;
-}
-nav .nav-item:hover .nav-link,
-nav .navbar-brand:hover {
-   color: #ffffff !important;
-   transition: color 200ms ease-in-out;
-} */
 .nav-transparent .navbar-brand {
    letter-spacing: 3px;
    font-weight: 500;
@@ -357,21 +338,21 @@ nav .navbar-brand:hover {
    .nav-transparent {
       background-color: #ffffff;
    }
-   nav .container {
+   .nav-transparent .container {
       padding-left: 20px !important;
       padding-right: 20px !important;
    }
-   nav .navbar-brand {
+   .nav-transparent .navbar-brand {
       color: #000000 !important;
    }
-   nav .nav-item {
+   .nav-transparent .nav-item {
       margin-left: 5px !important;
    }
-   nav .nav-item .nav-link {
+   .nav-transparent .nav-item .nav-link {
       color: #b8b8b8 !important;
    }
-   nav .nav-item:hover .nav-link,
-   nav .nav-item:focus .nav-link {
+   .nav-transparent .nav-item:hover .nav-link,
+   .nav-transparent .nav-item:focus .nav-link {
       color: #000000 !important;
    }
    .about img {
